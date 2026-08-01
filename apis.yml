@@ -1,7 +1,24 @@
 aid: storetasker
 name: Storetasker
-description: Storetasker is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Storetasker is a curated freelance marketplace that connects direct-to-consumer
+  and e-commerce brands with vetted, expert Shopify developers, designers, and marketers
+  for projects and ongoing retainers. Founded in 2016 and backed by Techstars, the platform
+  has helped over 30,000 brands hire trusted Shopify talent across 200+ countries, handling
+  expert matching, communication, project management, and payments. Storetasker operates
+  as a two-sided hiring marketplace rather than a public API provider — as of this pass it
+  publishes no developer API, SDK, OpenAPI, or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.storetasker.com/meta-home.png
 url: https://raw.githubusercontent.com/api-evangelist/storetasker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Marketplace
+- Shopify
+- E-Commerce
+- Freelance
+- Developers
+- DTC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://storetasker.com/
+  url: https://www.storetasker.com/
+- type: Pricing
+  url: https://www.storetasker.com/pricing
+- type: TermsOfService
+  url: https://www.storetasker.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.storetasker.com/privacy
+- type: Support
+  url: https://storetasker.kb.help/
+- type: Blog
+  url: https://resources.storetasker.com/blog
+- type: Login
+  url: https://expert.storetasker.com/login
+- type: DomainSecurity
+  url: security/storetasker-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
