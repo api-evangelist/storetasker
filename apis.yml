@@ -7,6 +7,17 @@ description: Storetasker is a curated freelance marketplace that connects direct
   expert matching, communication, project management, and payments. Storetasker operates
   as a two-sided hiring marketplace rather than a public API provider — as of this pass it
   publishes no developer API, SDK, OpenAPI, or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
