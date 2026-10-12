@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/storetasker/integrations
+- https://n8n.io/integrations/storetasker/
+- https://composio.dev/toolkits/storetasker
+- https://monid.ai/tools/storetasker
+checked:
+- https://composio.dev/toolkits/storetasker
+- https://monid.ai/tools/storetasker
+- https://n8n.io/integrations/storetasker/
+- https://zapier.com/apps/storetasker/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
